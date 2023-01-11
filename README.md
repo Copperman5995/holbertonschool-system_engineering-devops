@@ -1,1 +1,1 @@
-how to understand sccripts
+How to use scripts
