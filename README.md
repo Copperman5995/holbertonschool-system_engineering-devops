@@ -1,1 +1,1 @@
-How to use scripts
+How to use and change permissons
