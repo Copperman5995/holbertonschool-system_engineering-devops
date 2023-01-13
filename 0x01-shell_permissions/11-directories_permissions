@@ -1,2 +1,3 @@
 #!/bin/bash
-chmod --recursive d755
+chmod -R 755 /holbertonschool-system_engineering-devops/0x01-shell_permissions
+
