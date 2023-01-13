@@ -1,2 +1,3 @@
 #!/bin/bash
-chmod --recursive d711
+chmod --recursive d755
+
