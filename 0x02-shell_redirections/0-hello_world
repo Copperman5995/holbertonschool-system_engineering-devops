@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'Hello, World' > hello_world1 | cat hello_world1 | fmt | pr
+echo 'Hello, World' > hello_world1 | cat hello_world1
