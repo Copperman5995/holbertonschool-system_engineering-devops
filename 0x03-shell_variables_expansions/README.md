@@ -1,0 +1,1 @@
+How to understand shell initialization files, variables,expansions, shell arthmetic, the alias command, and other help pages
