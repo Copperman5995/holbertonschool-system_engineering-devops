@@ -1,0 +1,1 @@
+hwo to understand loops conditions and parsing
