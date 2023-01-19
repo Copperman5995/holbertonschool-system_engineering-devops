@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#one big if statment
+if [ -e school]
+then
+    echo 'yes'
+else
+    echo 'no'
+fi
