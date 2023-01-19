@@ -1,1 +1,13 @@
 #!/usr/bin/env bash
+#while loop that prints best school 10 times but with an if statemnt to print hi on the 9th time
+x=1
+while [ $x -le 10 ]
+do
+    if [ $x -eq 9 ]
+    then
+	echo "Hi"
+    else
+	echo "Best School"
+    fi
+    x=$(( x + 1 ))
+done
