@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+#while loop with nested if statment with multiple conditions
+x=1
+while [ $x -le 100 ]
+do
+    if [ $(( x % 3 )) -eq 0 ] && [ $(( x % 5 )) -eq 0 ]
+    then
+	echo $x "FizzBuzz"
+	x=$(( x + 1 ))
+    elif [ $(( x % 3 )) -eq 0 ] && [ $(( x % 5 )) -ne 0 ]
+    then
+	echo $x "Fizz"
+	x=$(( x + 1 ))
+    elif [ $(( x % 5 )) -eq 0 ] && [ $(( x % 3 )) -ne 0 ]
+    then
+	 echo $x "Buzz"
+	 x=$(( x + 1 ))
+    else
+	echo $x
+	x=$(( x + 1 ))
+    fi
+   # x=$(( x + 1 ))
+done
