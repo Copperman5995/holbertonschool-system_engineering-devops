@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 #invucable loop
-x=1
-while [ $x -le 3 ]
+trap 'echo "I am invinvible!!!"' SIGTERM
+while :
 do
     echo "To infinity and beyod"
-    trap "I am invincible!!" SIGTERM
     sleep 2
 done
