@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#shows only the outputs of the ps command that have bash
+# shellcheck disable=SC2009
