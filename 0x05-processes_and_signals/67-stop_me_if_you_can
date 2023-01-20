@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#killls highlanf
+pkill -f "7-highlander"
