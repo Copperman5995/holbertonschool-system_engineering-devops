@@ -1,11 +1,7 @@
 #!/usr/bin/env bash
 #invucable loop
 
-function no_ctrlc()
-{
-    echo "I am invincible"
-}
-trap no_ctrlc SIGTERM
+trap "echo I am invicicle!!!" SIGTERM
 while :
 do
     echo "To infinity and beyod"
