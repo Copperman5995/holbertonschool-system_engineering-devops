@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #invucable loop
 
-trap "echo I am invicicle!!!" SIGTERM
+trap "echo I am invicible!!!" SIGTERM
 while :
 do
     echo "To infinity and beyod"
